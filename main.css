@@ -20,6 +20,10 @@ img{
   max-width: 100%;
 }
 
+h3{
+  margin: 0 0 1em 0;
+}
+
 /****************************
 HEADING
 ****************************/
@@ -62,7 +66,7 @@ nav {
   margin: 20px 0 0;
 }
 
-nav ul 
+nav ul {
   list-style: none;
   margin: 0 10px;
   padding: 0;
@@ -123,6 +127,49 @@ PAGE: PORTFOLIO
 }
 
 /****************************
+PAGE: CONTACT
+****************************/
+
+.contact-info{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a{
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a{
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.facebook a{
+  background-image: url('../img/facebook.png');
+}
+
+/****************************
+PAGE: ABOUT
+****************************/
+
+.profile-photo{
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 20px;
+}
+
+/****************************
 COLORS
 ****************************/
 
@@ -145,15 +192,6 @@ nav{
 h1, h2{
   color: #fff;
 }
-
-nav a, nav a:visited{
-  color: #fff;
-}
-
-nav a.selected, nav a:hover {
-  color: #32673f;
-}
-
 
 nav a, nav a:visited{
   color: #fff;
